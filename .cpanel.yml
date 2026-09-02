@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/rafifweb/public_html/tes.rafiftest.my.id
+    - /bin/cp -R * $DEPLOYPATH
